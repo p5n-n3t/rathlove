@@ -1,0 +1,195 @@
+{
+  "targets": {
+    "alan": {
+      "normal": [
+        "/assets/game/targets/alan/normal/alan-normal-01.webp",
+        "/assets/game/targets/alan/normal/alan-normal-02.webp",
+        "/assets/game/targets/alan/normal/alan-normal-03.webp",
+        "/assets/game/targets/alan/normal/alan-normal-04.webp"
+      ],
+      "angry": [
+        "/assets/game/targets/alan/angry/alan-angry-01.webp"
+      ],
+      "crying": [
+        "/assets/game/targets/alan/crying/alan-crying-01.webp",
+        "/assets/game/targets/alan/crying/alan-crying-02.webp",
+        "/assets/game/targets/alan/crying/alan-crying-03.webp"
+      ],
+      "counts": {
+        "normal": 4,
+        "angry": 1,
+        "crying": 3
+      }
+    },
+    "bibi": {
+      "normal": [
+        "/assets/game/targets/bibi/normal/bibi-normal-01.webp",
+        "/assets/game/targets/bibi/normal/bibi-normal-02.webp",
+        "/assets/game/targets/bibi/normal/bibi-normal-03.webp",
+        "/assets/game/targets/bibi/normal/bibi-normal-04.webp",
+        "/assets/game/targets/bibi/normal/bibi-normal-05.webp"
+      ],
+      "angry": [
+        "/assets/game/targets/bibi/angry/bibi-angry-01.webp",
+        "/assets/game/targets/bibi/angry/bibi-angry-02.webp",
+        "/assets/game/targets/bibi/angry/bibi-angry-03.webp"
+      ],
+      "crying": [
+        "/assets/game/targets/bibi/crying/bibi-crying-01.webp",
+        "/assets/game/targets/bibi/crying/bibi-crying-02.webp"
+      ],
+      "counts": {
+        "normal": 5,
+        "angry": 3,
+        "crying": 2
+      }
+    },
+    "daniela": {
+      "normal": [
+        "/assets/game/targets/daniela/normal/daniela-normal-01.webp"
+      ],
+      "angry": [
+        "/assets/game/targets/daniela/angry/daniela-angry-01.webp"
+      ],
+      "crying": [
+        "/assets/game/targets/daniela/crying/daniela-crying-01.webp"
+      ],
+      "counts": {
+        "normal": 1,
+        "angry": 1,
+        "crying": 1
+      }
+    },
+    "epstein": {
+      "normal": [
+        "/assets/game/targets/epstein/normal/epstein-normal-01.webp",
+        "/assets/game/targets/epstein/normal/epstein-normal-02.webp"
+      ],
+      "angry": [
+        "/assets/game/targets/epstein/angry/epstein-angry-01.webp"
+      ],
+      "crying": [
+        "/assets/game/targets/epstein/crying/epstein-crying-01.webp"
+      ],
+      "counts": {
+        "normal": 2,
+        "angry": 1,
+        "crying": 1
+      }
+    },
+    "loomer": {
+      "normal": [
+        "/assets/game/targets/loomer/normal/loomer-normal-01.webp",
+        "/assets/game/targets/loomer/normal/loomer-normal-02.webp"
+      ],
+      "angry": [
+        "/assets/game/targets/loomer/angry/loomer-angry-01.webp",
+        "/assets/game/targets/loomer/angry/loomer-angry-02.webp"
+      ],
+      "crying": [
+        "/assets/game/targets/loomer/crying/loomer-crying-01.webp",
+        "/assets/game/targets/loomer/crying/loomer-crying-02.webp"
+      ],
+      "counts": {
+        "normal": 2,
+        "angry": 2,
+        "crying": 2
+      }
+    },
+    "shmuley": {
+      "normal": [
+        "/assets/game/targets/shmuley/normal/shmuley-normal-01.webp"
+      ],
+      "angry": [
+        "/assets/game/targets/shmuley/angry/shmuley-angry-01.webp",
+        "/assets/game/targets/shmuley/angry/shmuley-angry-02.webp"
+      ],
+      "crying": [
+        "/assets/game/targets/shmuley/crying/shmuley-crying-01.webp"
+      ],
+      "counts": {
+        "normal": 1,
+        "angry": 2,
+        "crying": 1
+      }
+    },
+    "trump": {
+      "normal": [
+        "/assets/game/targets/trump/normal/trump-normal-01.webp",
+        "/assets/game/targets/trump/normal/trump-normal-02.webp",
+        "/assets/game/targets/trump/normal/trump-normal-03.webp"
+      ],
+      "angry": [
+        "/assets/game/targets/trump/angry/trump-angry-01.webp",
+        "/assets/game/targets/trump/angry/trump-angry-02.webp"
+      ],
+      "crying": [
+        "/assets/game/targets/trump/crying/trump-crying-01.webp"
+      ],
+      "counts": {
+        "normal": 3,
+        "angry": 2,
+        "crying": 1
+      }
+    }
+  },
+  "chickens": {
+    "chicken1": {
+      "asset": "/assets/game/chickens/chicken-1.svg",
+      "role": "heavy"
+    },
+    "chicken2": {
+      "asset": "/assets/game/chickens/chicken-2.svg",
+      "role": "balanced"
+    },
+    "chicken3": {
+      "asset": "/assets/game/chickens/chicken-3.svg",
+      "role": "fast"
+    }
+  },
+  "intro": {
+    "lips": [
+      "/assets/intro/lips/lips-rathbone-is-rathlove.webp",
+      "/assets/intro/lips/lips-in.webp",
+      "/assets/intro/lips/lips-rath-a-mole.webp",
+      "/assets/intro/lips/rathlove-block-characters.webp"
+    ],
+    "logos": [
+      "/assets/intro/logos/pixel-logo-blue.webp",
+      "/assets/intro/logos/pixel-logo-green.webp",
+      "/assets/intro/logos/pixel-logo-red.webp"
+    ],
+    "rathbone": [
+      "/assets/intro/rathbone/portrait-01.webp",
+      "/assets/intro/rathbone/portrait-02.webp",
+      "/assets/intro/rathbone/portrait-03.webp",
+      "/assets/intro/rathbone/portrait-04.webp",
+      "/assets/intro/rathbone/portrait-05.webp",
+      "/assets/intro/rathbone/full-body.webp",
+      "/assets/intro/rathbone/full-body-glitch-01.webp",
+      "/assets/intro/rathbone/full-body-glitch-02.webp",
+      "/assets/intro/rathbone/full-body-glitch-03.webp",
+      "/assets/intro/rathbone/full-body-glitch-04.webp"
+    ],
+    "props": [
+      "/assets/intro/props/crown.webp",
+      "/assets/intro/props/earphones.webp",
+      "/assets/intro/props/flying-cat.webp",
+      "/assets/intro/props/crt-monitor.webp",
+      "/assets/intro/props/peeking-cat.webp",
+      "/assets/intro/props/phone-01.webp",
+      "/assets/intro/props/reaching-cat.webp",
+      "/assets/intro/props/startac-phone.webp",
+      "/assets/intro/props/mixtape.webp",
+      "/assets/intro/props/trump-long-hair.webp"
+    ]
+  },
+  "meta": {
+    "project": "RATLOVE",
+    "domain": "ratlove.me",
+    "protagonist": "Rathbone / Rathlove",
+    "targetCount": 7,
+    "targetFaceAssetCount": 41,
+    "introAssetCount": 27
+  }
+}
