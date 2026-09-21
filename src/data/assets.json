@@ -130,8 +130,14 @@
         "normal": 3,
         "angry": 2,
         "crying": 1
-      }
+      },
+      "bonus": [
+        "/assets/game/targets/trump/bonus/trump-bonus.webp"
+      ]
     }
+  },
+  "targetAccessories": {
+    "kippah": "/assets/game/targets/kippah.svg"
   },
   "chickens": {
     "chicken1": {
@@ -147,41 +153,91 @@
       "role": "fast"
     }
   },
+  "moodBasket": {
+    "cats": [
+      "/assets/game/mood-basket/mood-basket-cat-1.webp",
+      "/assets/game/mood-basket/mood-basket-cat-2.webp",
+      "/assets/game/mood-basket/mood-basket-cat-3.webp",
+      "/assets/game/mood-basket/mood-basket-cat-4.webp"
+    ]
+  },
   "intro": {
     "lips": [
-      "/assets/intro/lips/lips-rathbone-is-rathlove.webp",
       "/assets/intro/lips/lips-in.webp",
       "/assets/intro/lips/lips-rath-a-mole.webp",
-      "/assets/intro/lips/rathlove-block-characters.webp"
+      "/assets/intro/lips/lips-rathbone-is-rathlove.webp"
     ],
-    "logos": [
-      "/assets/intro/logos/pixel-logo-blue.webp",
-      "/assets/intro/logos/pixel-logo-green.webp",
-      "/assets/intro/logos/pixel-logo-red.webp"
-    ],
+    "logos": {
+      "mainRathboneKoosh": "/assets/intro/logos/main-logo-rathbone-in-koosh.webp",
+      "mainRathloveBlockCharacters": "/assets/intro/logos/main-logo-rathlove-block-characters.webp",
+      "leaderboard": "/assets/intro/logos/leaderboard-logo-rathlove.webp",
+      "hasidicHat": "/assets/intro/logos/hasidic.svg",
+      "pixelatedIcons": [
+        "/assets/intro/logos/pixelated-icon-blue.webp",
+        "/assets/intro/logos/pixelated-icon-green.webp",
+        "/assets/intro/logos/pixelated-icon-red.webp"
+      ]
+    },
     "rathbone": [
+      "/assets/intro/rathbone/full-body-glitch-01.webp",
+      "/assets/intro/rathbone/full-body-glitch-02.webp",
+      "/assets/intro/rathbone/full-body-glitch-03.webp",
+      "/assets/intro/rathbone/full-body-glitch-04.webp",
+      "/assets/intro/rathbone/full-body.webp",
       "/assets/intro/rathbone/portrait-01.webp",
       "/assets/intro/rathbone/portrait-02.webp",
       "/assets/intro/rathbone/portrait-03.webp",
       "/assets/intro/rathbone/portrait-04.webp",
-      "/assets/intro/rathbone/portrait-05.webp",
-      "/assets/intro/rathbone/full-body.webp",
-      "/assets/intro/rathbone/full-body-glitch-01.webp",
-      "/assets/intro/rathbone/full-body-glitch-02.webp",
-      "/assets/intro/rathbone/full-body-glitch-03.webp",
-      "/assets/intro/rathbone/full-body-glitch-04.webp"
+      "/assets/intro/rathbone/portrait-05.webp"
     ],
     "props": [
       "/assets/intro/props/crown.webp",
+      "/assets/intro/props/crt-monitor.webp",
       "/assets/intro/props/earphones.webp",
       "/assets/intro/props/flying-cat.webp",
-      "/assets/intro/props/crt-monitor.webp",
+      "/assets/intro/props/koosh-toy-1.webp",
+      "/assets/intro/props/koosh-toy-2.webp",
+      "/assets/intro/props/mixtape.webp",
       "/assets/intro/props/peeking-cat.webp",
       "/assets/intro/props/phone-01.webp",
       "/assets/intro/props/reaching-cat.webp",
       "/assets/intro/props/startac-phone.webp",
-      "/assets/intro/props/mixtape.webp",
+      "/assets/intro/props/swatch.webp",
       "/assets/intro/props/trump-long-hair.webp"
+    ],
+    "graffiti": [
+      "/assets/intro/graffiti/building-graffiti-eazy-e.webp",
+      "/assets/intro/graffiti/building-graffiti-fuck-idf.webp",
+      "/assets/intro/graffiti/building-graffiti-kobain.webp",
+      "/assets/intro/graffiti/building-graffiti-michael.webp",
+      "/assets/intro/graffiti/building-graffiti-nirvana-logo.webp",
+      "/assets/intro/graffiti/building-graffiti-rolling-stones-logo.webp",
+      "/assets/intro/graffiti/building-graffiti-soad-disorder.webp",
+      "/assets/intro/graffiti/building-graffiti-soad-toxicity.webp",
+      "/assets/intro/graffiti/building-graffiti-tupac.webp"
+    ],
+    "icons": [
+      "/assets/intro/icons/pixelated-icon-all-seeing-eye.svg",
+      "/assets/intro/icons/pixelated-icon-announcement.svg",
+      "/assets/intro/icons/pixelated-icon-bitcoin-icon.svg",
+      "/assets/intro/icons/pixelated-icon-buildings.svg",
+      "/assets/intro/icons/pixelated-icon-chatting.svg",
+      "/assets/intro/icons/pixelated-icon-computer-code.svg",
+      "/assets/intro/icons/pixelated-icon-headphones-music.svg",
+      "/assets/intro/icons/pixelated-icon-information.svg",
+      "/assets/intro/icons/pixelated-icon-laugh-emoji.svg",
+      "/assets/intro/icons/pixelated-icon-map-location.svg",
+      "/assets/intro/icons/pixelated-icon-money-bags.svg",
+      "/assets/intro/icons/pixelated-icon-news.svg",
+      "/assets/intro/icons/pixelated-icon-referral.svg",
+      "/assets/intro/icons/pixelated-icon-review-form.svg",
+      "/assets/intro/icons/pixelated-icon-rocket.svg",
+      "/assets/intro/icons/pixelated-icon-shaking-hands.svg",
+      "/assets/intro/icons/pixelated-icon-thinking-emoji.svg",
+      "/assets/intro/icons/pixelated-icon-verified-check.svg",
+      "/assets/intro/icons/pixelated-icon-video-camera.svg",
+      "/assets/intro/icons/pixelated_icon_robot.svg",
+      "/assets/intro/icons/pixelated_icon_ufo.svg"
     ]
   },
   "meta": {
@@ -190,6 +246,6 @@
     "protagonist": "Rathbone / Rathlove",
     "targetCount": 7,
     "targetFaceAssetCount": 41,
-    "introAssetCount": 27
+    "introAssetCount": 63
   }
 }

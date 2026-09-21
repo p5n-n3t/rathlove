@@ -1,8 +1,10 @@
-# Asset inventory
+# RATLOVE Asset Inventory
 
-The repo contains 41 target-face images, 3 chicken SVGs, and 27 intro/hero/prop images.
+The canonical machine-readable registry is `src/data/assets.json`. The files in `public/assets/` are source-of-truth assets and should not be regenerated or silently substituted.
 
-## Target variations
+## Gameplay assets
+
+### Target face variations
 
 | Target | Normal | Angry | Crying | Total |
 |---|---:|---:|---:|---:|
@@ -15,18 +17,68 @@ The repo contains 41 target-face images, 3 chicken SVGs, and 27 intro/hero/prop 
 | Trump | 3 | 2 | 1 | 6 |
 | **Total** | **18** | **12** | **11** | **41** |
 
-There are seven target characters in the supplied files. The system is data-driven, so an eighth target can be added later without changing the core engine.
+### Gameplay bonus/special assets
 
-## Canonical paths
+- `/assets/game/targets/trump/bonus/trump-bonus.webp`
+- `/assets/game/targets/kippah.svg`
+- `/assets/game/mood-basket/mood-basket-cat-1.webp`
+- `/assets/game/mood-basket/mood-basket-cat-2.webp`
+- `/assets/game/mood-basket/mood-basket-cat-3.webp`
+- `/assets/game/mood-basket/mood-basket-cat-4.webp`
 
-- Chickens: `/public/assets/game/chickens/`
-- Targets: `/public/assets/game/targets/<character>/<state>/`
-- Intro lips/title pieces: `/public/assets/intro/lips/`
-- Pixel logos: `/public/assets/intro/logos/`
-- Rathbone/Rathlove hero images: `/public/assets/intro/rathbone/`
-- Props: `/public/assets/intro/props/`
-- Machine-readable manifest: `/src/data/assets.json`
+### Chicken projectiles
+
+- `/assets/game/chickens/chicken-1.svg`
+- `/assets/game/chickens/chicken-2.svg`
+- `/assets/game/chickens/chicken-3.svg`
+
+## Intro assets
+
+### Main logos/title art
+
+- `/assets/intro/logos/main-logo-rathbone-in-koosh.webp`
+- `/assets/intro/logos/main-logo-rathlove-block-characters.webp`
+- `/assets/intro/logos/leaderboard-logo-rathlove.webp`
+- `/assets/intro/logos/hasidic.svg`
+
+### Supporting pixelated icons
+
+- `/assets/intro/logos/pixelated-icon-blue.webp`
+- `/assets/intro/logos/pixelated-icon-green.webp`
+- `/assets/intro/logos/pixelated-icon-red.webp`
+
+### Lips/title pieces
+
+- `/assets/intro/lips/lips-rathbone-is-rathlove.webp`
+- `/assets/intro/lips/lips-in.webp`
+- `/assets/intro/lips/lips-rath-a-mole.webp`
+
+### Rathbone art
+
+Ten files under `/assets/intro/rathbone/`: five portraits, one clean full-body image, and four full-body glitch frames.
+
+### Props
+
+Thirteen files under `/assets/intro/props/`, including crown, earphones, CRT monitor, three cat treatments, phones, mixtape, long-haired Trump prop, two Koosh toys, and Swatch watch.
+
+### Graffiti
+
+Nine optimized wall-art files under `/assets/intro/graffiti/`.
+
+### Narrative helper icons
+
+Twenty-one SVG helper icons under `/assets/intro/icons/`.
 
 ## Variation rule
 
-Every target/state uses a shuffle-bag. Consume every asset in the bag once before reshuffling. Never immediately repeat the last-used asset across a reshuffle unless that state has only one image. Normal faces swap repeatedly during lane movement. Angry and crying bags advance only when that character is hit.
+Every target/state uses a shuffle-bag. Consume every asset in a bag before reshuffling. Never immediately repeat the previous asset across a reshuffle unless the state has only one asset.
+
+## Asset sizing
+
+- Standard target heads: capped at 500 px on the longest side.
+- Trump bonus: capped at 700 px.
+- Mood-basket cats: capped at 500 px.
+- Graffiti: capped at 1200 px.
+- Intro props: capped at 1400 px.
+- Hero/title graphics: capped at 1920 px.
+- SVG files remain vector and are not raster-resized.
