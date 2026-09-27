@@ -1,5 +1,5 @@
 export const GAME_DURATION_SECONDS = 90;
-export const INTRO_DURATION_SECONDS = 30;
+export const INTRO_DURATION_SECONDS = 90;
 export const SEWER_TRANSITION_SECONDS = 6;
 export const ANGRY_REACTION_SECONDS = 2;
 
@@ -85,11 +85,6 @@ export const GAMEPLAY = {
   lanes: [170, 310, 450, 590],
   normalFaceSwapMs: [240, 460],
   comboWindowMs: 2500,
-  maxCombo: 10,
-  baseHitScore: 100,
-  precisionBonusMax: 50,
-  secondPierceBonus: 150,
   panicStartSecondsRemaining: 15,
   panicSpeedMultiplier: 1.1,
-  panicScoreMultiplier: 1.25,
 } as const;

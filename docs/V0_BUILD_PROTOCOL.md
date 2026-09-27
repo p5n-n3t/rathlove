@@ -83,7 +83,7 @@ M6 — Rat target system
 - supplied head shuffle-bags
 - speeds/evasion
 - angry/crying hit lifecycle
-- kippah attachment/modifier
+- instance-based scoring, independent of depicted identity or religious symbols
 
 M7 — Special systems
 - Mood Basket behavior

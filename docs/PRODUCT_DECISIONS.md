@@ -9,7 +9,7 @@ This file captures decisions confirmed by the project owner before the master v0
 - Game title: RATH-A-MOLE
 - Canonical spelling is always RATH-A-MOLE. Do not write Rat-A-Mole, Rathomol, Wrathomol, or other transcription variants.
 - Final title composition should use the supplied Rathbone/RathLove logo assets, including the Koosh-letter Rathbone graphic, animated IN, main RathLove block-character logo, and rendered RATH-A-MOLE title treatment.
-- The supplied Hasidic hat SVG is intended as a decorative title treatment on the first letter of the rendered game title when compositionally appropriate.
+- Supplied title art is canonical. Do not use religious symbols as scoring incentives or as a visual shorthand for a target's worth.
 
 ## Intro and round timing
 
@@ -71,26 +71,23 @@ Options should include audio, motion intensity/reduced-motion support, input sen
 - Projectile travel time must matter. The player leads moving rats rather than clicking directly on them for an instant hit.
 - Rats receive a small reaction window to dodge/alter movement before impact.
 
-## Kippah modifier
+## Target score modifiers
 
-- Approximately 20% of ordinary rat spawns wear the supplied kippah SVG.
-- The kippah must be transformed/scaled/positioned to sit naturally on the current head asset.
-- A successful hit on a kippah-wearing rat is worth 4× that rat's calculated hit value.
-- The modifier can stack with the normal score calculation and power-up effects unless a later balancing pass places an explicit cap.
+- Do not reward hitting a religious accessory. Instance value derives from movement and difficulty, independent of religion or depicted identity. A future neutral nonreligious special marker may be designed if an extra rarity mechanic is needed.
 
 ## Mood Basket
 
 - Mood Basket consists of four supplied cat images near the slingshot.
 - They should remain lively: jiggling, hopping, glitching, swapping positions, and crowding around one another.
 - A launched Mood Basket acts as an area-of-effect projectile.
-- It can damage ordinary rats, kippah rats, and Trump Bonus.
+- It can hit ordinary targets and the off-lane bonus target.
 - Blast scoring should be based on the number and difficulty of targets actually hit.
-- Final charge/availability rules remain to be locked after explaining scarcity/balance options.
+- Current rule: four total charges per round, one per supplied cat visual, each shot can affect up to five distinct targets. This keeps chickens central. Rebalance after observed playtests.
 
 ## Leaderboard identity
 
 - No conventional account/login system is currently desired.
-- Final identity model still needs to balance old-school arcade behavior with returning-player recognition.
+- Identity: random anonymous UUID in a same-site HttpOnly browser cookie. Callsign is display text, not a unique key; each run has its own session ID. Cross-device linking requires explicit future account/PIN design, not accidental callsign matching.
 - Do not aggregate runs solely by visible callsign because duplicate names such as ALEX can belong to different people.
 
 ## Mobile
@@ -106,22 +103,4 @@ Options should include audio, motion intensity/reduced-motion support, input sen
 Figma file key:
 1VXBfWeG55khKhxzC6STm0
 
-The connected Figma file currently exposes one top-level page named Components. Useful systems found include:
-- buttons with default/hover/pressed/inactive states
-- fixed/scalable modals
-- leaderboard rows
-- tables
-- fields/forms
-- toggles
-- sliders
-- progress bars/wheels
-- navigation
-- tabs
-- cards
-- toasts
-- popups/drawers
-- icon components
-
-Use this file as a structural and interaction reference. Do not copy its visual identity unchanged. Reskin/adapt into RATLOVE's retro CRT/pixel/arcade aesthetic.
-
-The current connector view does not expose separate desktop/mobile screen pages; if another Figma file contains those layouts, add its file key or node-specific links separately.
+The connected file is multi-page. Desktop/mobile screen pairs for Loading, Login/Create Account, Settings, Leaderboard, and Stats were inspected directly in the initial build. Exact IDs are in `FIGMA_REFERENCE.md`. Buttons, rows, forms, drawers, tables and modals are structural donors, not art to copy. No account system is introduced. RATLOVE uses a distinct CRT / municipal sewer treatment.
